@@ -1,0 +1,281 @@
+<style type="text/css">
+
+html, body { margin: 0; padding: 0 }
+
+@font-face {
+font-family: 'Simplifica';
+font-style: normal;
+font-weight: normal;
+src: local('Simplifica'), url('SIMPLIFICA Typeface.woff') format('woff');
+}
+
+
+.ms-promlink-root {
+text-align:center; 
+display: inline-block; 
+margin: auto;
+background-color: white ! important;
+} 
+
+.ms-promlink-body {
+    width:480px; 
+    height: auto;
+    display: inline-block; 
+    text-align:center;
+}
+
+.ms-promlink-button {
+display: none;
+}
+.ms-promlink-header {
+    display:none;
+}
+
+#s4-bodyContainer{
+    /* defines 960px by using 60rem = 60 * 16px (Default Font Size) */
+    width: auto;
+    margin: auto;
+
+    /* background color of the content */
+    background-color: #f1f1ea;
+}
+
+.ms-dialog #s4-bodyContainer{
+    margin: 0px;
+    width: auto;
+}
+.ms-dlgContent #s4-bodyContainer{
+    width: auto;
+}
+
+/*** clear fix ***/
+.clearfix{
+    clear: both;
+}
+.ms-WPBody{
+
+background-color: white !important;
+
+}
+.ms-core-listMenu-verticalBox UL.root > LI > .menu-item{   
+  background-color:#ffffff;  
+  color: rgb(0, 94, 184);  
+  min-height:0px;  
+  padding-top:5px;  
+  padding-left:20px;  
+  font-family:"Simplifica","Segoe UI",Arial, Helvetica, Sans-Serif !important;  
+ }
+.ms-core-listMenu-item, .ms-core-listMenu-item:link, .ms-core-listMenu-item:visited, .ms-tv-item:link, .ms-tv-item:visited, .ms-tv-header:link, .ms-tv-header:visited {
+    color: rgb(0, 94, 184);  
+    text-decoration: none;
+}
+ #s4-breadcrumb-header {
+background-color:#ffffff;
+}
+
+.ms-breadcrumb-top
+ {
+    display: none;
+ }
+
+#s4-titlerow { display:block !important; }
+    
+/*******************************************************************************************************************************************/
+#contentBox  {
+    display:block;
+    margin: 0px 400px 0px 550px !important;
+
+    }
+
+#sideNavBox {
+    float: left;
+    margin-left: 360px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 180px;
+}
+
+.ms-siteicon-img {
+    max-width: 120px;
+    max-height: 40px;
+}
+    
+.ms-webpart-cell-vertical {
+    display: block;
+    background-color: white !important;
+}
+
+.ms-webpartzone-cell {
+    margin: 0px 0px 0px;
+}
+
+.ms-webpart-zone.ms-fullWidth {background-color: white; display: inline;}
+
+#WebPartWPQ4.ms-WPBody {background-color: #f1f1ea !important;}
+
+#MSOZoneCell_WebPartWPQ4.s4-wpcell-plain.ms-webpartzone-cell.ms-webpart-cell-vertical.ms-fullWidth {background-color: #f1f1ea !important;}
+    
+
+.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a {
+    font-family: "Simplifica","Helvetica Neue","Segoe UI",Tahoma,Helvetica,Arial,sans-serif;
+    color: rgb(0, 94,184) !important;
+    margin-top: -6px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 24pt;
+}
+
+
+.s4-wpcell > .ms-webpart-chrome, .s4-wpActive > .ms-webpart-chrome {
+    border: 1px solid transparent;
+    width: auto;
+}  
+ 
+.ms-webpart-chrome-title {
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+
+.ms-rtestate-field p, p.ms-rteElement-P {
+    margin: 0px 0px 10px 10px;
+    line-height: 1.6;
+}
+
+
+#WebPartWPQ6{
+overflow:auto;
+}
+    
+#MSOImageWebPart_WebPartWPQ3 {
+    margin: 30px;
+} 
+
+.ms-rteThemeForeColor-5-0 {
+    color: rgb(0, 94,184) !important;
+}
+
+/**List Header color**/
+.ms-viewheadertr{
+background:#00426A;
+}
+.ms-vh2-nofilter, .ms-vh2, a.ms-headerSortTitleLink {
+font-weight:bold;
+color:white;
+font-size:1.05em;
+}
+
+#s4-titlerow {
+    display: block !important;
+    position: fixed;
+    z-index: 99;
+    background-color: white !important;
+}
+#contentRow {
+    padding-top: 100px;
+}
+.ms-core-pageTitle, .ms-core-pageTitle a {
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    color: rgb(0, 94,184) !important;
+}
+.ms-core-deltaSuiteLinks {
+    display: none;
+}
+
+.ms-core-brandingText {
+    display: none;
+}
+
+#suiteBarLeft {
+    background-color: #f5f5f5;
+    color: #fff;
+    width: 100%;
+    vertical-align: middle;
+}
+#suiteBarRight {
+    background-color: #f5f5f5;
+    color: black !important;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+#zz5_Menu {
+    color: grey !important;
+}
+
+#titleAreaBox {
+    /* margin: auto 20px; */
+    margin-left: 340px;
+}
+
+#MSOZoneCell_WebPartWPQ2 {
+    background-color: white !important;
+}
+
+#MSOZoneCell_WebPartWPQ8.ms-webpart-cell-vertical {
+    background-color: #f1f1ea !important;
+}
+
+#MSOZoneCell_WebPartWPQ8.ms-webpartzone-cell {
+    height: 15px;
+}
+
+#Td1 {
+    margin-bottom: 0px;
+}
+
+
+
+
+</style><style type="text/css">
+    #suiteBarTop {display:none !important;}
+    #s4-ribbonrow{display:none !important;}
+</style><sharepoint:spsecuritytrimmedcontrol permissionsstring="FullMask" runat="server"><style type="text/css">
+    #suiteBarTop{display:block !important;}
+    #s4-ribbonrow{display:block !important;}
+</style> </sharepoint:spsecuritytrimmedcontrol><script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js" type="text/javascript">
+</script><script type="text/javascript">
+$(document).ready(function () {
+    SetAccordionQuicklaunch();
+});
+
+function SetAccordionQuicklaunch() {
+
+    var caretMarkup = "<a href='#' class='accordionControl contracted'>&or;</a>";
+
+    // initialize
+    $('#sideNavBox .root.static > li.static').each(function () {
+        if ($(this).find('ul').length) {
+            $(this).children('a').after(caretMarkup);
+            $(this).children('span').after(caretMarkup); // also finds headers that are not links themselves
+            $(this).removeClass('selected').children('ul').hide();
+        }
+    });
+
+    $('.accordionControl').click(function () {
+        if ($(this).hasClass('contracted')) {
+            $('.accordionControl.expanded').each(function () {  // these three lines will make any expanded sections automatically contract when you expand a new section
+                ContractQuickLaunchSection($(this));            // if you want to be able to have multiple sections expanded at the same time,
+            });                                                 // remove these three lines of code.
+            ExpandQuickLaunchSection($(this));
+        } else if ($(this).hasClass('expanded')) {
+            ContractQuickLaunchSection($(this));
+        }
+        return false;
+    });
+}
+
+function ContractQuickLaunchSection(accordionControlLink) {
+    accordionControlLink.siblings('ul').slideUp();
+    accordionControlLink.removeClass('expanded').addClass('contracted');
+    accordionControlLink.html('&or;');
+}
+
+function ExpandQuickLaunchSection(accordionControlLink) {
+    accordionControlLink.siblings('ul').slideDown();
+    accordionControlLink.removeClass('contracted').addClass('expanded');
+    accordionControlLink.html('&and;');
+}
+</script><style>
+#sideNavBox .root li { position: relative; } a.accordionControl { text-decoration: none; position: absolute; right: 5px; top: 5px;  /* change to top: 5px to have the caret stay on the main link */ z-index: 1; } a.accordionControl:hover, a.accordionControl:active, a.accordionControl:focus, a.accordionControl:visited { text-decoration: none; } </style> 
